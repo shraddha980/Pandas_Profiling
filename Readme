@@ -1,0 +1,11 @@
+EDA is the first step of a data science project. It means we have to find dependency between columns by doing univariate, bivariate and multivariate analysis. It involves doing the doing the quantification of values such as finding out the no of rows, columns, missing values, categorical values, duplicate values, data types etc.
+
+Once the above step is done, the next step to write statistical conclusions about the data such as finding out the mean, median, mode, variance, covariance, standard deviation, t-test, z-test etc.
+
+The third step is to conclude our analysis using plots such as box, scatter, kde plots, pie charts, histogram, heat maps and correlation maps.
+
+We can do the above three steps manually which can sometimes take time or we can do it using 1 line code in python. The best tool to carry out is the Pandas-Profiling Library in Python. However, along with pandas profiling there are other libraries such as Sweetviz, Autoviz and D-Tale to carry out the same task.
+
+After trying out all the above tools, I liked the way how data is represented was represented in sweetviz and autoviz. Both  give  data in tabular format as well as colorful univariate and bivariate plots. Infact Autoviz also gave me Bag of Words at the end of output.
+
+You can try both these tools using pip install commands.
